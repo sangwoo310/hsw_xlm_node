@@ -3,11 +3,11 @@ var Schema   = mongoose.Schema;
 
 var Transaction = new Schema(
     {
-        "txId" : {type: String, index:{unique: true}},
+        "hash" : {type: String, index:{unique: true}},
         "blockNumber" : Number,
         "from" : String,
-        "to" : String, 
-        "amt" : Number,
+        "to" : String,
+        "value" : Number,
         "fee" : Number
     }, {collection: "Transaction"});
 

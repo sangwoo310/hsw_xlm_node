@@ -5,4 +5,4 @@ function define(name, value) {
     });
 }
 
-define("PLANBIT", {"ADDRESS": "SBGXEWN4K4VYONS4W3XOKC2ISEBZ2JVA3CJKUEFJIAJPU2MQ5QPBTAG3"});
+define("hsw", {"ADDRESS": "kkkkkkk"});
